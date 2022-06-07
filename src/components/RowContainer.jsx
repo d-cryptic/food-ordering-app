@@ -27,7 +27,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
                 whileHover={{ scale: 1.2 }}
                 src={item?.imageURL}
                 alt=""
-                className="h-[125px] w-[145px] -mt-16 drop-shadow-2xl"
+                className="h-[125px] w-[145px] -mt-8 drop-shadow-2xl "
               />
               <motion.div
                 whileTap={{ scale: 0.75 }}
