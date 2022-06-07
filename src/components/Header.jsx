@@ -58,6 +58,11 @@ const Header = () => {
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 1, x: 0 }}
+            transition={{
+              delay: 0.5,
+              x: { type: "spring", stiffness: 100 },
+              default: { duration: 0.5 },
+            }}
             className="flex items-center gap-8">
             <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Home

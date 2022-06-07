@@ -108,11 +108,11 @@ const CreateContainer = () => {
         setIsLoading(false);
         setFields(true);
         setMsg("Data uploaded successfully");
-        clearData();
         setAlertStatus("success");
         setTimeout(() => {
           setFields(false);
         }, 4000);
+        clearData();
       }
     } catch (error) {
       console.log(error);
@@ -133,7 +133,7 @@ const CreateContainer = () => {
     setImageAsset(null);
     setCalories("");
     setPrice("");
-    setCategory(null);
+    setCategory("Select Category");
   };
 
   const fetchData = async () => {
