@@ -42,3 +42,14 @@
   - Cart menu
   - Not available item shown on 'item not found'
   - Mobile Responsive
+
+## <b> TODO for V2 </b>
+1. Change favicon
+2. Solve 'Add to Cart - same item' bug
+3. Solve Slider bug
+4. Solve 'add item by admin form - two options not get cleared' bug
+5. Razorpay/ Stripe integration
+6. Auth - email/password
+7. Add to LocalStorage
+8. Use CDN for image fast loading
+9. 'Order Now' Homepage 
